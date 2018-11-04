@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/china_place?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 13849063980
+
+  jpa:
+    hibernate:
+      ddl-auto: none  #  create-drop  如果实体对应的表已存在，先删除再创建，否则直接创建
+    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        use-sql-comments: true
